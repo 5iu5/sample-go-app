@@ -1,0 +1,12 @@
+import './Icon.css'
+
+const CommentIcon = () =>{
+    return(
+        <svg className='comment-icon' 
+            viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#545454"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g clip-path="url(#clip0_429_11106)"> <path d="M12 21C16.9706 21 21 16.9705 21 12C21 7.02941 16.9706 2.99997 12 2.99997C7.02944 2.99997 3 7.02941 3 12C3 13.4876 3.36093 14.8909 4 16.1272L3 21L7.8728 20C9.10904 20.639 10.5124 21 12 21Z" stroke="#545454" stroke-width="1.44" stroke-linecap="round" stroke-linejoin="round"></path> <rect x="7.5" y="12" width="0.01" height="0.01" stroke="#545454" stroke-width="1.44" stroke-linejoin="round"></rect> <rect x="12" y="12" width="0.01" height="0.01" stroke="#545454" stroke-width="1.44" stroke-linejoin="round"></rect> <rect x="16.5" y="12" width="0.01" height="0.01" stroke="#545454" stroke-width="1.44" stroke-linejoin="round"></rect> </g> <defs> <clipPath id="clip0_429_11106"> <rect width="24" height="24" fill="white"></rect> </clipPath> </defs> </g>
+        </svg> 
+       
+    )
+}
+
+export default CommentIcon
